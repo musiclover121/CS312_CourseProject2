@@ -64,3 +64,6 @@ The repository contains:
 * [Instructions for Key Pair Creation](https://canvas.oregonstate.edu/courses/2066853/assignments/10501907)
 * [Minecraft Server Download](https://www.minecraft.net/en-us/download/server)
 * [AWS Homepage](console.aws.amazon.com/console/home)
+* [Bash Scripting - Cases](https://www.geeksforgeeks.org/linux-unix/bash-scripting-case-statement/)
+* [AWS CLI Minecraft Server](https://blog.abstractlabs.co.uk/how-to-deploy-a-minecraft-server-on-aws-using-terraform-iac-b8691e87b55f)
+
