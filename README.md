@@ -34,7 +34,7 @@ The repository contains:
 - Download the files in this repository. (Unzip if needed)
 - Run the `Create_Server.sh` bash script to download the Nmap, Terraform, and AWS services.
   ```bash
-  Bash Create_Server.sh key="YOUR_KEYPAIR_NAME"
+  Bash Create_Server.sh key="[YOUR_KEYPAIR_NAME]"
   ```
   If you already have Nmap, Terraform, and AWS services download and set up, use the `--skip-setup` argument to skip downloads and credential setup.
   - Grab your AWS credentials from the Learner's Lab. It will ask for these values:
@@ -43,7 +43,10 @@ The repository contains:
     - AWS Session Token: `[YOUR_SESSION_TOKEN]`
     - Default region: `[YOUR_DEFAULT_REGION]`
     - Default output format: `JSON`
-  - The script will run the Terraform commands to create a new server, verify with Nmap, and print the server's IP on completion.
+  - The script will then run the Terraform commands to create a new server.
+    - When asked if you want to apply the Terraform actions, type `yes` to start applying AWS resources based on the outlined plan. 
+  - Finally, the script will verify the server is active with Nmap, and print the server's IP on completion.
+      If you wish to skip the verification, enter `ctrl-c`
 
 ## Connecting to the Minecraft Server
 - Open `Minecraft`
@@ -55,7 +58,7 @@ The repository contains:
 - Click `Join Server`    
 
 ## Destroying Infrastructure
-- To destroy the server and all supporting structures, use the command:
+- To destroy the server and all supporting infrastructure, use the command:
     ```bash
     terraform destroy
     ```
