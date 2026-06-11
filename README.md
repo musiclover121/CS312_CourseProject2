@@ -41,8 +41,8 @@ The repository contains:
     - AWS Access Key ID: `[YOUR_ACCESS_KEY_ID]`
     - AWS Secret Access Key: `[YOUR_SECRET_ACCESS_KEY]`
     - AWS Session Token: `[YOUR_SESSION_TOKEN]`
-    - Default region: `[YOUR_DEFAULT_REGION]`
-    - Default output format: `JSON`
+    - Default region: default or `[YOUR_DEFAULT_REGION]`
+    - Default output format: default
   - The script will then run the Terraform commands to create a new server.
     - When asked if you want to apply the Terraform actions, type `yes` to start applying AWS resources based on the outlined plan. 
   - Finally, the script will verify the server is active with Nmap, and print the server's IP on completion.
@@ -64,9 +64,9 @@ The repository contains:
     ```
 
 ## Referances
-* [Instructions for Key Pair Creation](https://canvas.oregonstate.edu/courses/2066853/assignments/10501907)
 * [Minecraft Server Download](https://www.minecraft.net/en-us/download/server)
 * [AWS Homepage](console.aws.amazon.com/console/home)
+* [AWS CLI Installation](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html?utm_source=chatgpt.com)
 * [Bash Scripting - Cases](https://www.geeksforgeeks.org/linux-unix/bash-scripting-case-statement/)
 * [AWS CLI Minecraft Server](https://blog.abstractlabs.co.uk/how-to-deploy-a-minecraft-server-on-aws-using-terraform-iac-b8691e87b55f)
 
