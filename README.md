@@ -34,7 +34,7 @@ The repository contains:
 - Download the files in this repository. (Unzip if needed)
 - Run the `Create_Server.sh` bash script to download the Nmap, Terraform, and AWS services.
   ```bash
-  Bash Create_Server.sh"
+  Bash Create_Server.sh key="YOUR_KEYPAIR_NAME"
   ```
   If you already have Nmap, Terraform, and AWS services download and set up, use the `--skip-setup` argument to skip downloads and credential setup.
   - Grab your AWS credentials from the Learner's Lab. It will ask for these values:
